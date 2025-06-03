@@ -40,9 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 setTimeout(typeWriter, 50);
             }
         }
-        
-        // Descomente para ativar o efeito de digitação
-        // typeWriter();
+         typeWriter();
     }
     
     // Efeito de partículas no fundo (simulando ambiente de código)
@@ -83,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Descomente para ativar o efeito de partículas
-    // createParticles();
+     createParticles();
     
     // Adiciona classe para VS Code theme
     document.body.classList.add('vscode-theme');
